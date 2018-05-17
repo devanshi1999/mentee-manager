@@ -65,6 +65,7 @@ addForm.addEventListener('submit', function(e) {
   li.appendChild(editBtn);
   list.appendChild(li);
   
+	addForm.reset();
 });
 
 // delete mentee
@@ -151,6 +152,7 @@ list.addEventListener('click', (evt) => {
     li.appendChild(editBtn);
     list.appendChild(li);
    
+	    editForm.reset();
    });
 }
 });
