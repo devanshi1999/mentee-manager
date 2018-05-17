@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>MENTEE MANAGER</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">MENTEE MANAGER</h1>
+            </div>
+	    </header>
+	    <div id="mentee-list">
+	    	<h2 class="title">Mentees</h2>
+	        <hr>
+	    	<button id="myBtn"> ADD A NEW MENTEE </button>
+	 
+	    	<br><br><br><br>
+	    	<ul>
+	    		
+	    	</ul>
+	    </div>
+        <div id="myModal" class="modal">
+	    <form id="add-mentee" class="modalContent1">
+	    	<span class="close">&times;</span>
+	    	SL.NO:<input type="text" name="slno"><br>
+            <br>NAME:<input type="text" name="username"><br>
+            <br>GENDER:<br><input type="radio" name="gender" value="male"> Male<br><input type="radio" name="gender" value="female"> Female<br><input type="radio" name="gender" value="other"> Other<br>
+            <br>RATING:<br><input type="radio" name="rating" value="1">1<br><input type="radio" name="rating" value="2">2<br><input type="radio" name="rating" value="3">3<br><input type="radio" name="rating" value="4">4<br><input type="radio" name="rating" value="5">5<br>
+            <br>COMMENTS:<input type="text" name="comments"><br>
+            <button>Add</button>
+            <input type="reset" value="Reset" class="r1">
+	    </form>
+	    </div>
+	    
+	    <div id="myModal1" class="modal">
+        <form id="edit-mentee" class="modalContent1">
+	    	<span class="close">&times;</span>
+            RATING:<br><input type="radio" name="rating1" value="1">1<br><input type="radio" name="rating1" value="2">2<br><input type="radio" name="rating1" value="3">3<br><input type="radio" name="rating1" value="4">4<br><input type="radio" name="rating1" value="5">5<br>
+            <br>COMMENTS:<input type="text" name="comments1"><br>
+            <button>Edit</button>
+            <input type="reset" value="Reset" class="r1">
+	    </form>
+	    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
