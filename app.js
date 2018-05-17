@@ -64,8 +64,7 @@ addForm.addEventListener('submit', function(e) {
   li.appendChild(deleteBtn);
   li.appendChild(editBtn);
   list.appendChild(li);
-  
-	addForm.reset();
+   
 });
 
 // delete mentee
